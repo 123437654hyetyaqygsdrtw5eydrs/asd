@@ -9,6 +9,6 @@ read okres
 
 rrso=$(expr rrso/100)
 odestki=$(expr $kapital \* $rrso \* ($okres/12) )
-echx "Odsetki: " $odestki
+echo "Odsetki: " $odestki
 ilosc=$(expr $simple_interest + $kapital)
 echo "Całkowita spłata pożyczki to: "$amount
